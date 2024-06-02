@@ -2,7 +2,7 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 import os
 
-model=tf.keras.models.load_model("D:\Python\ML\Projects\Pepsi_OD\pepsi.h5")
+model=tf.keras.models.load_model("pepsi.h5")
 class_names=["Mountain Dew","Pepsi"]
 
 def load_and_prep_image(filename, img_shape=512):
